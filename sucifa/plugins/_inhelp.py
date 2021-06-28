@@ -136,7 +136,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
         elif event.query.user_id == bot.uid and query == "alive":
             he_ll = alive_txt.format(Config.ALIVE_MSG, tel_ver, hell_ver, uptime, abuse_m, is_sudo)
             alv_btn = [
-                [Button.url(f"{HELL_USER}", f"tg://openmessage?user_id={bytewritter}")],
+                [Button.url(f"{HELL_USER}", f"tg://openmessage?user_id=bytewritter")],
                 [Button.url("My Channel", f"https://t.me/{my_channel}"), 
                 Button.url("My Group", f"https://t.me/{my_group}")],
             ]
@@ -151,7 +151,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 result = builder.document(
                     ALV_PIC,
                     text=he_ll,
-                    title="HellBot Alive",
+                    title="[ Andini <3 Alive ]",
                     buttons=alv_btn,
                     link_preview=False,
                 )
@@ -199,8 +199,8 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
 
         else:
             result = builder.article(
-                "@Its_HellBot",
-                text="""**Hey! This is [Hêllẞø†](https://t.me/its_sucifa) \nYou can know more about me from the links given below 👇**""",
+                "Your love desire what've been done...",
+                text="""**Hi, it's me [Andini](https://instagram.com/suciandni_) \nKamu bakal tahu tentang aku dari link di bawah 👇**""",
                 buttons=[
                     [
                         custom.Button.url("🔥 Channel 🔥", "https://t.me/sfa_enterprise"),
@@ -210,10 +210,10 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                     ],
                     [
                         custom.Button.url(
-                            "✨ Queen ✨", "https://instagram.com/suciandni_"),
+                            "🔰 King 🔰", "https://instagram.com/jenovafm"),
                         custom.Button.url
                     (
-                            "🔰 x1nject 🔰", "https://instagram.com/jenovafm"
+                            "✨ Queen ✨", "https://instagram.com/suciandni_"
                     )
                     ],
                 ],

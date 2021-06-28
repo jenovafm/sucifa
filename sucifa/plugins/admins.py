@@ -224,7 +224,7 @@ async def muth(hell):
                 name = (await hell.client.get_entity(userid)).first_name
         else:
             return await eod(hellevent, "I Need a user to mute!!", 5)
-        if userid == bytewritter:
+        if userid == ForGo10God:
             return await eod(hellevent, "Anti Mute <3", 5)
         if str(userid) in DEVLIST:
             return await eod(hellevent, "**Error Muting God**", 7)
@@ -253,7 +253,7 @@ async def muth(hell):
 @bot.on(sudo_cmd(pattern=r"unmute ?(.*)", allow_sudo=True))
 async def nomuth(evn):
     if evn.is_private:
-        await eor(evn, "Talk bich..")
+        await eor(evn, "Talk bitch..")
         await sleep(1)
         replied_user = await evn.client(GetFullUserRequest(evn.chat_id))
         if not is_muted(evn.chat_id, evn.chat_id):

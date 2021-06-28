@@ -37,7 +37,7 @@ async def _(event):
     result = await borg(functions.help.GetConfigRequest())
     result = result.stringify()
     logger.info(result)
-    await eor("Config Saved In You Heroku Logs.")
+    await eor(event,"Config Saved In You Heroku Logs.")
 
 
 @bot.on(hell_cmd(pattern="schd ?(.*)", outgoing=True))

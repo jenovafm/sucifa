@@ -3,14 +3,15 @@ from sucifa import *
 from sucifa.config import Config
 from sucifa.helpers import *
 from sucifa.utils import *
-from sucifa.random_strings import *
+
 from sucifa.version import __hell__
 from telethon import version
 
 
 HELL_USER = bot.me.first_name
 ForGo10God = bot.uid
-hell_mention = f"[{HELL_USER}](tg://user?id={bytewritter})"
+DEVLIST = ["107569740"]
+hell_mention = f"[{HELL_USER}](tg://user?id={ForGo10God})"
 hell_logo = ""
 cjb = ""
 restlo = ""
